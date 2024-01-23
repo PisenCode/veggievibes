@@ -58,7 +58,7 @@ VeggieVibes/
 
 │ └── ...
 
-└── ...
+├ └── favicon
 
 
 ## Component Breakdown
