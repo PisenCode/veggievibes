@@ -20,3 +20,15 @@
 Color: green #689577
 Color: orange #FFBC59 
 */
+
+body {
+    padding-top: 56px;
+}
+
+.navbar {
+    transition: top 0.3s; /* Smooth transition effect for the navbar */
+}
+
+.navbar.scrolled {
+    background-color: #333; /* Change the background color when scrolled */
+}
