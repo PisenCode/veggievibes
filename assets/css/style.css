@@ -31,6 +31,10 @@ body {
     padding-top: 56px;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 .navbar {
     transition: top 0.3s; /* Smooth transition effect for the navbar */
 
