@@ -34,6 +34,7 @@ body {
 .navbar {
     transition: top 0.3s; /* Smooth transition effect for the navbar */
 
+    text-transform: uppercase;
     font-family: "rubik doodle shadow";
 }
 
@@ -52,4 +53,48 @@ body {
 
 i.fa-solid.fa-bars {
     color: #FFBC59;
+}
+
+/* HERO SECTION */
+.hero-section {
+    background-image: url(/assets/images/Hero.webp);
+    position: relative;
+    height: 100vh;
+
+    color: white;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-text {
+    text-transform: uppercase;
+
+    background-color: #6895776b;
+    border: 2px solid #689577;
+    color: #FFBC59;
+
+    padding: 3rem;
+}
+
+#hero-logo-name {
+    font-weight: bold;
+}
+
+i.fa-regular.fa-circle-down {
+    color: #FFBC59;
+    font-size: 2rem;
+
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -90%);
+    text-align: center;
+    padding-top: 38rem;
+}
+
+i.fa-regular.fa-circle-down:hover {
+    font-size: 3rem;
+    transition: 0.5s;
 }
