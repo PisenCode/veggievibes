@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Klee+One:wght@400;600&display=swap')
+@import url('https://fonts.googleapis.com/css2?family=Klee+One&family=Rubik+Doodle+Shadow&display=swap')
 
 /* Font style */
 /* 
@@ -12,6 +12,12 @@
     font-family: "Klee One", cursive;
     font-weight: 600;
     font-style: normal;
+}
+
+.rubik-doodle shadow-regular {
+  font-family: "Rubik Doodle Shadow", system-ui;
+  font-weight: 400;
+  font-style: normal;
 }
 */
 
@@ -27,8 +33,23 @@ body {
 
 .navbar {
     transition: top 0.3s; /* Smooth transition effect for the navbar */
+
+    font-family: "rubik doodle shadow";
 }
 
 .navbar.scrolled {
     background-color: #333; /* Change the background color when scrolled */
+}
+
+/* NAVIGATION */
+.navbar a {
+    color: #FFBC59;
+}
+
+.navbar a:hover {
+    color: #FFBC59;
+}
+
+i.fa-solid.fa-bars {
+    color: #FFBC59;
 }
