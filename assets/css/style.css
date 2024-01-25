@@ -98,3 +98,20 @@ i.fa-regular.fa-circle-down:hover {
     font-size: 3rem;
     transition: 0.5s;
 }
+
+/* ABOUT SECTION */
+.about-section {
+    font-family: "rubik doodle shadow";
+
+    padding: 80px 0;
+    background-color: #fff;
+}
+
+.about-text {
+    font-family: "Klee One", cursive;
+    font-weight: 600;
+
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
