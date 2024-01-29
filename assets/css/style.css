@@ -144,3 +144,11 @@ i.fa-regular.fa-circle-down:hover {
     margin: 0 auto;
     text-align: center;
 }
+
+.about-bg {
+    background-image: url(/assets/images/About-bg.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    height: 100vh;
+}
