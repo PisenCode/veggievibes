@@ -59,6 +59,32 @@ i.fa-solid.fa-bars {
     color: #FFBC59;
 }
 
+/* SEARCH-BAR */
+div.container-fluid {
+    gap: 1rem;
+}
+.search-bar {
+    padding-left: 38rem;
+}
+
+button.btn.btn-outline-warning {
+    color: #FFBC59;
+    border-color: #FFBC59;
+    background-color: #ffbc5929;
+}
+
+input.form-control {
+    font-family: "Klee One", cursive;
+
+    border-color: #FFBC59;
+    background-color: #ffbc59bd;
+}
+
+input.form-control:focus {
+    background-color: #FFBC59;
+    color: #333;
+}
+
 /* HERO SECTION */
 .hero-section {
     background-image: url(/assets/images/Hero.webp);
